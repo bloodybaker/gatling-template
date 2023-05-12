@@ -1,0 +1,2897 @@
+{
+  "simulations": [
+    {
+      "simulationName": "namessimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / UPDATE / /names (small) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "443",
+              "maxTime": "3630",
+              "averageTime": "1223",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "636",
+              "maxTime": "1230",
+              "averageTime": "817",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / UPDATE / /names (medium) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "554",
+              "maxTime": "3218",
+              "averageTime": "1327",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "769",
+              "maxTime": "1777",
+              "averageTime": "1189",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / UPDATE / /names (large) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "608",
+              "maxTime": "2554",
+              "averageTime": "1428",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1465",
+              "maxTime": "2368",
+              "averageTime": "1952",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / ALL_ACTIONS / /names (small) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "442",
+              "maxTime": "3938",
+              "averageTime": "1400",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "829",
+              "maxTime": "1614",
+              "averageTime": "1062",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / ALL_ACTIONS / /names (medium) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "611",
+              "maxTime": "5683",
+              "averageTime": "1728",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1035",
+              "maxTime": "1768",
+              "averageTime": "1340",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / ALL_ACTIONS / /names (large) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "934",
+              "maxTime": "6456",
+              "averageTime": "1978",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1050",
+              "maxTime": "1949",
+              "averageTime": "1552",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / ADD / /names (small) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "459",
+              "maxTime": "5689",
+              "averageTime": "1674",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "603",
+              "maxTime": "1006",
+              "averageTime": "771",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / ADD / /names (medium) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "526",
+              "maxTime": "5618",
+              "averageTime": "1524",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "758",
+              "maxTime": "1214",
+              "averageTime": "984",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (PUT) / ADD / /names (large) / editNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "629",
+              "maxTime": "4971",
+              "averageTime": "1310",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1059",
+              "maxTime": "1506",
+              "averageTime": "1244",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (GET) / WITHOUT_PARAMS / /names (small) / getNames",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "707",
+              "maxTime": "26128",
+              "averageTime": "8579",
+              "percentOfFailedRequests": "30",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "751",
+              "maxTime": "3484",
+              "averageTime": "1719",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (GET) / WITHOUT_PARAMS / /names (medium) / getNames",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "726",
+              "maxTime": "23668",
+              "averageTime": "10132",
+              "percentOfFailedRequests": "41",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "617",
+              "maxTime": "1098",
+              "averageTime": "811",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (GET) / WITHOUT_PARAMS / /names (large) / getNames",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "716",
+              "maxTime": "22631",
+              "averageTime": "8745",
+              "percentOfFailedRequests": "34",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "653",
+              "maxTime": "1029",
+              "averageTime": "777",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (GET) / WITH_PARAMS / /names (small) / getNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "391",
+              "maxTime": "22433",
+              "averageTime": "4839",
+              "percentOfFailedRequests": "15",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "403",
+              "maxTime": "820",
+              "averageTime": "602",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (GET) / WITH_PARAMS / /names (medium) / getNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "399",
+              "maxTime": "7644",
+              "averageTime": "1415",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "428",
+              "maxTime": "811",
+              "averageTime": "551",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/names (GET) / WITH_PARAMS / /names (large) / getNamesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "415",
+              "maxTime": "2280",
+              "averageTime": "781",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "439",
+              "maxTime": "1289",
+              "averageTime": "753",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "allattributessimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/ (GET) / WITHOUT_PARAMS / (small) / getAllAttributes",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "726",
+              "maxTime": "29440",
+              "averageTime": "12506",
+              "percentOfFailedRequests": "48",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "907",
+              "maxTime": "5061",
+              "averageTime": "1614",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/ (GET) / WITHOUT_PARAMS / (medium) / getAllAttributes",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "785",
+              "maxTime": "28325",
+              "averageTime": "11228",
+              "percentOfFailedRequests": "43",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "735",
+              "maxTime": "1299",
+              "averageTime": "925",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/ (GET) / WITHOUT_PARAMS / (large) / getAllAttributes",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "869",
+              "maxTime": "22888",
+              "averageTime": "9994",
+              "percentOfFailedRequests": "29",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "807",
+              "maxTime": "1572",
+              "averageTime": "1068",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/ (GET) / WITH_PARAMS / /(small) / getAllAttributesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "382",
+              "maxTime": "11337",
+              "averageTime": "4826",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "383",
+              "maxTime": "960",
+              "averageTime": "646",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/ (GET) / WITH_PARAMS / (medium) / getAllAttributesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "391",
+              "maxTime": "1891",
+              "averageTime": "611",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "390",
+              "maxTime": "856",
+              "averageTime": "467",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/ (GET) / WITH_PARAMS / (large) / getAllAttributesWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_3",
+              "minTime": "392",
+              "maxTime": "11925",
+              "averageTime": "855",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_4",
+              "minTime": "378",
+              "maxTime": "482",
+              "averageTime": "411",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "genderssimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / UPDATE / /genders (small) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "541",
+              "maxTime": "717",
+              "averageTime": "607",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / UPDATE / /genders (medium) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "542",
+              "maxTime": "1146",
+              "averageTime": "785",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / UPDATE / /genders (large) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "804",
+              "maxTime": "1099",
+              "averageTime": "885",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ALL_ACTIONS / /genders (small) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "571",
+              "maxTime": "720",
+              "averageTime": "639",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ALL_ACTIONS / /genders (medium) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "637",
+              "maxTime": "833",
+              "averageTime": "731",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ALL_ACTIONS / /genders (large) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "843",
+              "maxTime": "1840",
+              "averageTime": "1041",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ADD / /genders (small) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "495",
+              "maxTime": "608",
+              "averageTime": "541",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ADD / /genders (medium) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "542",
+              "maxTime": "738",
+              "averageTime": "637",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ADD / /genders (large) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "705",
+              "maxTime": "923",
+              "averageTime": "801",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (GET) / WITHOUT_PARAMS / /genders (small) / getGenders",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "725",
+              "maxTime": "903",
+              "averageTime": "800",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (GET) / WITHOUT_PARAMS / /genders (medium) / getGenders",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "601",
+              "maxTime": "663",
+              "averageTime": "618",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (GET) / WITHOUT_PARAMS / /genders (large) / getGenders",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "621",
+              "maxTime": "700",
+              "averageTime": "655",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (GET) / WITH_PARAMS / /genders (small) / getGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "436",
+              "maxTime": "609",
+              "averageTime": "534",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (GET) / WITH_PARAMS / /genders (medium) / getGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "491",
+              "maxTime": "828",
+              "averageTime": "613",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (GET) / WITH_PARAMS / /genders (large) / getGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "504",
+              "maxTime": "1300",
+              "averageTime": "888",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "submitsimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (small) / postSubmit",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "488",
+              "maxTime": "28508",
+              "averageTime": "18286",
+              "percentOfFailedRequests": "60",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "1836",
+              "maxTime": "29369",
+              "averageTime": "12190",
+              "percentOfFailedRequests": "25",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "12039",
+              "maxTime": "29052",
+              "averageTime": "21846",
+              "percentOfFailedRequests": "3",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "6358",
+              "maxTime": "19133",
+              "averageTime": "12955",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (small) / metadataValidation",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1041",
+              "maxTime": "1174",
+              "averageTime": "1117",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "534",
+              "maxTime": "4822",
+              "averageTime": "1930",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "205",
+              "maxTime": "1916",
+              "averageTime": "424",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "226",
+              "maxTime": "1732",
+              "averageTime": "308",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (small) / odmValidationOfRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "885",
+              "maxTime": "1040",
+              "averageTime": "978",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "370",
+              "maxTime": "3133",
+              "averageTime": "1473",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "23",
+              "maxTime": "173",
+              "averageTime": "51",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "24",
+              "maxTime": "87",
+              "averageTime": "37",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (medium) / postSubmit",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "9829",
+              "maxTime": "29391",
+              "averageTime": "14664",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "8776",
+              "maxTime": "29432",
+              "averageTime": "13962",
+              "percentOfFailedRequests": "18",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "29041",
+              "maxTime": "29147",
+              "averageTime": "29059",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "29036",
+              "maxTime": "29139",
+              "averageTime": "29049",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (medium) / odmValidationOfRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "438",
+              "maxTime": "503",
+              "averageTime": "481",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "365",
+              "maxTime": "1839",
+              "averageTime": "702",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "26",
+              "maxTime": "161",
+              "averageTime": "55",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "25",
+              "maxTime": "83",
+              "averageTime": "35",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (medium) / metadataValidation",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "940",
+              "maxTime": "1113",
+              "averageTime": "1025",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "514",
+              "maxTime": "2457",
+              "averageTime": "1099",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "210",
+              "maxTime": "402",
+              "averageTime": "253",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "222",
+              "maxTime": "304",
+              "averageTime": "258",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (large) / postSubmit",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "13662",
+              "maxTime": "18280",
+              "averageTime": "15241",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "12958",
+              "maxTime": "21737",
+              "averageTime": "14753",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "29042",
+              "maxTime": "29144",
+              "averageTime": "29055",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "29036",
+              "maxTime": "29145",
+              "averageTime": "29046",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (large) / odmValidationOfRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "698",
+              "maxTime": "1164",
+              "averageTime": "912",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "671",
+              "maxTime": "3471",
+              "averageTime": "1389",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "77",
+              "maxTime": "256",
+              "averageTime": "120",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "74",
+              "maxTime": "180",
+              "averageTime": "100",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (large) / metadataValidation",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "703",
+              "maxTime": "826",
+              "averageTime": "768",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_5",
+              "minTime": "541",
+              "maxTime": "2256",
+              "averageTime": "1055",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "206",
+              "maxTime": "302",
+              "averageTime": "252",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "225",
+              "maxTime": "360",
+              "averageTime": "265",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (small) / searchSourceManagement",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_5",
+              "minTime": "1368",
+              "maxTime": "19329",
+              "averageTime": "9098",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "16603",
+              "maxTime": "25318",
+              "averageTime": "21941",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "4341",
+              "maxTime": "13958",
+              "averageTime": "11587",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (medium) / searchSourceManagement",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_5",
+              "minTime": "5446",
+              "maxTime": "14707",
+              "averageTime": "11663",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "42478",
+              "maxTime": "88499",
+              "averageTime": "79862",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "30334",
+              "maxTime": "67995",
+              "averageTime": "58626",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/submit (POST) / /submit (large) / searchSourceManagement",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_5",
+              "minTime": "13741",
+              "maxTime": "18990",
+              "averageTime": "16060",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_6",
+              "minTime": "50702",
+              "maxTime": "120557",
+              "averageTime": "98956",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            },
+            {
+              "sprint": "Sprint_7",
+              "minTime": "43303",
+              "maxTime": "94340",
+              "averageTime": "75257",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "profilestoragesimulation",
+      "requests": [
+        {
+          "requestName": "storeProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "3647",
+              "maxTime": "25291",
+              "averageTime": "5951",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "getProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "501",
+              "maxTime": "24099",
+              "averageTime": "5506",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "editProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "531",
+              "maxTime": "23472",
+              "averageTime": "5488",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "storeAndCheckoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "533",
+              "maxTime": "4856",
+              "averageTime": "1203",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "batchessimulation",
+      "requests": [
+        {
+          "requestName": "/profile-validation/batches / POST_with_body",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "23635",
+              "maxTime": "23996",
+              "averageTime": "23672",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_with_status",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "493",
+              "maxTime": "28500",
+              "averageTime": "11538",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_with_provider",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "444",
+              "maxTime": "14153",
+              "averageTime": "2547",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_with_status_&_provider",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "439",
+              "maxTime": "9463",
+              "averageTime": "1394",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "482",
+              "maxTime": "14357",
+              "averageTime": "3308",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / PUT_with_body",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "499",
+              "maxTime": "860",
+              "averageTime": "604",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_without_params_by_id",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "391",
+              "maxTime": "22565",
+              "averageTime": "6181",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_validation_type",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "436",
+              "maxTime": "28437",
+              "averageTime": "6994",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_data_feature",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "434",
+              "maxTime": "28223",
+              "averageTime": "9641",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_data_feature_area",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "445",
+              "maxTime": "28200",
+              "averageTime": "7404",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_subset",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "451",
+              "maxTime": "25985",
+              "averageTime": "8234",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_with_all_filter_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "29362",
+              "maxTime": "29859",
+              "averageTime": "29490",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "471",
+              "maxTime": "758",
+              "averageTime": "575",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_data_feature_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "420",
+              "maxTime": "498",
+              "averageTime": "455",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_data_feature_area_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "450",
+              "maxTime": "651",
+              "averageTime": "537",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_validation_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "515",
+              "maxTime": "755",
+              "averageTime": "645",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_rule_code_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "488",
+              "maxTime": "546",
+              "averageTime": "523",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_error_message_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "468",
+              "maxTime": "666",
+              "averageTime": "610",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_status_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "515",
+              "maxTime": "891",
+              "averageTime": "672",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_record_type_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "524",
+              "maxTime": "803",
+              "averageTime": "635",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_issue_type_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "518",
+              "maxTime": "696",
+              "averageTime": "586",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_outcome_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "454",
+              "maxTime": "569",
+              "averageTime": "505",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_affected_values_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "22609",
+              "maxTime": "29585",
+              "averageTime": "28143",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_bucket_id_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "22622",
+              "maxTime": "29061",
+              "averageTime": "27543",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_validator_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "8211",
+              "maxTime": "20535",
+              "averageTime": "15345",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_record_class_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "382",
+              "maxTime": "5980",
+              "averageTime": "2174",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_record_uid_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "401",
+              "maxTime": "623",
+              "averageTime": "464",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_subset_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "417",
+              "maxTime": "566",
+              "averageTime": "492",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_validation_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "395",
+              "maxTime": "861",
+              "averageTime": "576",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_statuses_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "400",
+              "maxTime": "817",
+              "averageTime": "518",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_data_features_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "405",
+              "maxTime": "29532",
+              "averageTime": "3482",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_data_feature_areas_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "397",
+              "maxTime": "29564",
+              "averageTime": "3366",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_rule_codes_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "394",
+              "maxTime": "29088",
+              "averageTime": "3329",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_error_messages_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "422",
+              "maxTime": "29287",
+              "averageTime": "6167",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_record_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "400",
+              "maxTime": "1731",
+              "averageTime": "700",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_issue_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "404",
+              "maxTime": "22393",
+              "averageTime": "2895",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_outcomes_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "398",
+              "maxTime": "29513",
+              "averageTime": "6878",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_validators_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "28555",
+              "maxTime": "29653",
+              "averageTime": "29349",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_affected_values_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "28537",
+              "maxTime": "29363",
+              "averageTime": "29073",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_bucket_owners_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "28672",
+              "maxTime": "29454",
+              "averageTime": "29300",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_all_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "4737",
+              "maxTime": "29390",
+              "averageTime": "14794",
+              "percentOfFailedRequests": "30",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_without_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "459",
+              "maxTime": "28998",
+              "averageTime": "6324",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /subsets / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1024",
+              "maxTime": "28672",
+              "averageTime": "13163",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "allgetsimulation",
+      "requests": [
+        {
+          "requestName": "/profile-validation/batches / GET_with_status",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "6750",
+              "maxTime": "28732",
+              "averageTime": "18594",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_with_provider",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "454",
+              "maxTime": "22716",
+              "averageTime": "5070",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_with_status_&_provider",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "407",
+              "maxTime": "22720",
+              "averageTime": "5036",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "435",
+              "maxTime": "22502",
+              "averageTime": "7763",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/buckets / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "3174",
+              "maxTime": "24921",
+              "averageTime": "13797",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_without_params_by_id",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "650",
+              "maxTime": "29409",
+              "averageTime": "5886",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_validation_type",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "496",
+              "maxTime": "22520",
+              "averageTime": "5204",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_data_feature",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "413",
+              "maxTime": "29329",
+              "averageTime": "5562",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_data_feature_area",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "426",
+              "maxTime": "28625",
+              "averageTime": "5629",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_by_id_&_subset",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "425",
+              "maxTime": "22922",
+              "averageTime": "7380",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / GET_with_all_filter_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "22524",
+              "maxTime": "29555",
+              "averageTime": "28724",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/validations / /{validationId} / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "697",
+              "maxTime": "23868",
+              "averageTime": "12123",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "520",
+              "maxTime": "870",
+              "averageTime": "658",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_data_feature_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "413",
+              "maxTime": "490",
+              "averageTime": "456",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_data_feature_area_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "386",
+              "maxTime": "717",
+              "averageTime": "432",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_validation_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "388",
+              "maxTime": "541",
+              "averageTime": "502",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_rule_code_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "371",
+              "maxTime": "413",
+              "averageTime": "384",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_error_message_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "480",
+              "maxTime": "803",
+              "averageTime": "697",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_status_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "394",
+              "maxTime": "514",
+              "averageTime": "444",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_record_type_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "875",
+              "maxTime": "1451",
+              "averageTime": "1028",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_issue_type_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "429",
+              "maxTime": "753",
+              "averageTime": "658",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_outcome_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "377",
+              "maxTime": "554",
+              "averageTime": "460",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_affected_values_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "22492",
+              "maxTime": "29397",
+              "averageTime": "26630",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_bucket_id_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "14208",
+              "maxTime": "29685",
+              "averageTime": "25567",
+              "percentOfFailedRequests": "60",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_validator_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "10766",
+              "maxTime": "25907",
+              "averageTime": "18041",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_record_class_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "389",
+              "maxTime": "22413",
+              "averageTime": "5242",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_record_uid_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "403",
+              "maxTime": "8729",
+              "averageTime": "2313",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /filter / GET_with_subset_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "378",
+              "maxTime": "29373",
+              "averageTime": "3468",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_validation_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "382",
+              "maxTime": "23513",
+              "averageTime": "2775",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_statuses_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "379",
+              "maxTime": "29071",
+              "averageTime": "3315",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_data_features_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "364",
+              "maxTime": "4085",
+              "averageTime": "887",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_data_feature_areas_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "377",
+              "maxTime": "2239",
+              "averageTime": "587",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_rule_codes_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "380",
+              "maxTime": "1751",
+              "averageTime": "676",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_error_messages_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "338",
+              "maxTime": "2509",
+              "averageTime": "754",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_record_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "411",
+              "maxTime": "29427",
+              "averageTime": "3416",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_issue_types_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "376",
+              "maxTime": "29405",
+              "averageTime": "3625",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_outcomes_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "433",
+              "maxTime": "29400",
+              "averageTime": "6564",
+              "percentOfFailedRequests": "20",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_validators_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "29356",
+              "maxTime": "29422",
+              "averageTime": "29389",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_affected_values_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "22515",
+              "maxTime": "29437",
+              "averageTime": "28526",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_bucket_owners_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "22421",
+              "maxTime": "29409",
+              "averageTime": "25889",
+              "percentOfFailedRequests": "100",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_with_all_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "8637",
+              "maxTime": "29426",
+              "averageTime": "24889",
+              "percentOfFailedRequests": "70",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /validations / GET_without_param",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "508",
+              "maxTime": "8919",
+              "averageTime": "5428",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-validation/batches / /{batchId} / /subsets / GET_without_params",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "510",
+              "maxTime": "22443",
+              "averageTime": "4549",
+              "percentOfFailedRequests": "10",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "checkoutundocheckoutsimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/check-out (POST) / /check-out (small) / checkoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1148",
+              "maxTime": "5311",
+              "averageTime": "1877",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/check-out (POST) / /check-out (medium) / checkoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1025",
+              "maxTime": "1535",
+              "averageTime": "1307",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/check-out (POST) / /check-out (large) / checkoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "1359",
+              "maxTime": "2008",
+              "averageTime": "1658",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/undo-check-out (POST) / /undo-check-out (small) / undoCheckoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "546",
+              "maxTime": "749",
+              "averageTime": "622",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/undo-check-out (POST) / /undo-check-out (medium) / undoCheckoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "499",
+              "maxTime": "582",
+              "averageTime": "533",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/undo-check-out (POST) / /undo-check-out (large) / undoCheckoutProfile",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_4",
+              "minTime": "494",
+              "maxTime": "632",
+              "averageTime": "572",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "rejectsimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/reject (PUT) / /reject (small) / rejectRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "102",
+              "maxTime": "353",
+              "averageTime": "178",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/reject (PUT) / /reject (medium) / rejectRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "111",
+              "maxTime": "256",
+              "averageTime": "167",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/reject (PUT) / /reject (large) / rejectRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "124",
+              "maxTime": "383",
+              "averageTime": "223",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ADD / /genders (small) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "88",
+              "maxTime": "4513",
+              "averageTime": "657",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ADD / /genders (medium) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "88",
+              "maxTime": "4074",
+              "averageTime": "359",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/genders (PUT) / ADD / /genders (large) / editGendersWithParams",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "88",
+              "maxTime": "191",
+              "averageTime": "111",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "saveandcanceldraftsimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/save (POST) / /save (small) / saveDraftRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "85",
+              "maxTime": "2506",
+              "averageTime": "291",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/save (POST) / /save (medium) / saveDraftRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "94",
+              "maxTime": "1953",
+              "averageTime": "204",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/save (POST) / /save (large) / saveDraftRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "96",
+              "maxTime": "2178",
+              "averageTime": "172",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/cancel (POST) / /cancel (small) / cancelDraftRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "90",
+              "maxTime": "447",
+              "averageTime": "122",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/cancel (POST) / /cancel (medium) / cancelDraftRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "221",
+              "maxTime": "1110",
+              "averageTime": "665",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/bom/cancel (POST) / /cancel (large) / cancelDraftRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "335",
+              "maxTime": "1121",
+              "averageTime": "711",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "simulationName": "approvesimulation",
+      "requests": [
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (small) / putApprove",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "1041",
+              "maxTime": "8950",
+              "averageTime": "4684",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (small) / metadataValidation",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "244",
+              "maxTime": "1520",
+              "averageTime": "865",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (small) / odmValidationOfRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "61",
+              "maxTime": "126",
+              "averageTime": "80",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (small) / searchSourceManagement",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "100",
+              "maxTime": "3628",
+              "averageTime": "1468",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (medium) / putApprove",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "23526",
+              "maxTime": "28470",
+              "averageTime": "26271",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (medium) / odmValidationOfRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "73",
+              "maxTime": "124",
+              "averageTime": "95",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (medium) / metadataValidation",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "237",
+              "maxTime": "304",
+              "averageTime": "263",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (medium) / searchSourceManagement",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "13028",
+              "maxTime": "26782",
+              "averageTime": "23110",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (large) / putApprove",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "24037",
+              "maxTime": "29137",
+              "averageTime": "27631",
+              "percentOfFailedRequests": "70",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (large) / odmValidationOfRecord",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "138",
+              "maxTime": "316",
+              "averageTime": "201",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (large) / metadataValidation",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "227",
+              "maxTime": "306",
+              "averageTime": "259",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        },
+        {
+          "requestName": "/profile-storage/int/{uid}/approve (PUT) / /approve (large) / searchSourceManagement",
+          "requestDataList": [
+            {
+              "sprint": "Sprint_7",
+              "minTime": "21499",
+              "maxTime": "90310",
+              "averageTime": "73648",
+              "percentOfFailedRequests": "0",
+              "repeats": "2",
+              "concurrentUsers": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

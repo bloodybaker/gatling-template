@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>QA Report</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body class="position-relative">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <header>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="pill" href="#general">General</a>
+        </li>
+      </ul>
+    
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="general">
+            <div class="container-lg">
+              <!-- Header info -->
+                <div class="row justify-content-center align-items-center">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex align-items-center">
+                            <img src="assets/img/logo.png" class="img-fluid rounded-start" alt="Report logo">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">General report</h5>
+                              <p class="card-text">This report was generated for performance analisis during a few Sprints.</p>
+                              <p class="card-text" id="modifiedDate"><small class="text-muted">Last updated</small>
+                                <script type='text/javascript' src='assets/scripts/timer.js'></script>
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="row justify-content-left align-items-left g-2">
+                  <!-- Main block -->
+                  <div class="col-sm-4">
+                    <!-- Requests tree -->
+                    <div id="tree"></div>
+                    <script type='text/javascript' src="assets/scripts/list-view.js"></script>
+                  </div>
+                    <div class="col-8">
+                      <!-- Column with params and chart -->
+                      <div class="row justify-content-left align-items-left g-2">
+                        <div class="col-3">
+                        <!-- Column with options -->
+                        <select class="form-select form-select-sm" onchange='selectedOption()' aria-label=".form-select-sm" style="width:80%" disabled id="options">
+                          <option value="minTime" selected>Min time</option>
+                          <option value="maxTime">Max time</option>
+                          <option value="averageTime">Average time</option>
+                        </select>
+                      </div>
+                      <div class="col-md">
+                        <!-- Column with switch(toggle) -->
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="mySwitch" value="no" disabled>
+                          <label class="form-check-label" for="mySwitch">Show all</label>
+                        </div>
+                      </div>
+                      </div> 
+                      <!-- Invisible metabox --> 
+                      <input type="text" style="display:none" id="meta-text"></input>
+                      <!-- Chart -->
+                      <canvas id="chart" style="width:100%;max-width:900px; display:none" onclick="showData()"></canvas>
+                      <table class="table table-striped" style="display:none" id="table">
+                        <thead>
+                          <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                      </table>
+                      <style>
+                        .con {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    z-index: 9999;
+                  }
+                  
+                  .btn-floating {
+                    border-radius: 50px;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                  }
+                      </style>
+                      <!-- Floating buttons -->
+                      <div class="con">
+                        <a href="#chart" class="btn btn-primary btn-floating">To chart</a>
+                        <a class="btn btn-primary btn-floating" onclick="moveToSelected()">To selected</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </header>
+  <main>
+    
+  </main>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  
+</body>
+
+</html>
